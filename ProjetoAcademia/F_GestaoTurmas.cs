@@ -262,31 +262,50 @@ namespace ProjetoAcademia
             string nomeArquivo = Globais.caminho + @"\turmas.pdf";
             FileStream arquivoPDF = new FileStream(nomeArquivo, FileMode.Create);
             Document doc = new Document(PageSize.A4);
-
             PdfWriter escritorPDF = PdfWriter.GetInstance(doc, arquivoPDF);
+
+            iTextSharp.text.Image logo = iTextSharp.text.Image.GetInstance(Globais.caminho + @"\academia.png");
+            logo.ScaleToFit(140f, 120f);
+            logo.Alignment = Element.ALIGN_LEFT;
+            //logo.SetAbsolutePosition(100f, 600f); // x e y
 
             string dados = "";
 
             Paragraph paragrafo1 = new Paragraph(dados, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 20, (int)System.Drawing.FontStyle.Bold));
             paragrafo1.Alignment = Element.ALIGN_CENTER;
-            paragrafo1.Add("Feito por: ");
-            paragrafo1.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 14, (int)System.Drawing.FontStyle.Italic);
-            paragrafo1.Add("ItalloK ");
-            string texto = "github.com/ItalloK";
-            paragrafo1.Font = new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 14, (int)System.Drawing.FontStyle.Italic);
-            paragrafo1.Add(texto);
+            paragrafo1.Add("Relatório de Turmas\n\n");
 
-            Paragraph paragrafo2 = new Paragraph(dados, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 12, (int)System.Drawing.FontStyle.Bold));
-            paragrafo2.Alignment = Element.ALIGN_LEFT;
-            texto = "Paragrafo 2";
-            paragrafo2.Add(texto);
+            Paragraph paragrafo2 = new Paragraph(dados, new iTextSharp.text.Font(iTextSharp.text.Font.NORMAL, 20, (int)System.Drawing.FontStyle.Bold));
+            paragrafo2.Alignment = Element.ALIGN_CENTER;
+            paragrafo2.Add("Academia do Italo, o FODA");
 
 
+            PdfPTable tabela = new PdfPTable(3);// 3 colunas
+            tabela.DefaultCell.FixedHeight = 20;
+
+            tabela.AddCell("ID Turma");
+            tabela.AddCell("Turma");
+            tabela.AddCell("Horário");
+
+            DataTable dtTurmas = Banco.dql(vqueryDGV);
+            for(int i = 0; i < dtTurmas.Rows.Count; i++)
+            {
+                tabela.AddCell(dtTurmas.Rows[i].Field<Int64>("ID").ToString());
+                tabela.AddCell(dtTurmas.Rows[i].Field<string>("Turma"));
+                tabela.AddCell(dtTurmas.Rows[i].Field<string>("Horario"));
+            }
             doc.Open();
+            doc.Add(logo);
             doc.Add(paragrafo1);
+            doc.Add(tabela);
             doc.Add(paragrafo2);
             doc.Close();
 
+            DialogResult res = MessageBox.Show("Deseja abrir o Relatório?", "Relatorio", MessageBoxButtons.YesNo);
+            if (res == DialogResult.Yes)
+            {
+                System.Diagnostics.Process.Start(Globais.caminho + @"\turmas.pdf");
+            }
         }
     }
 }
