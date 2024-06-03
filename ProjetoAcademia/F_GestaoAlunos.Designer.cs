@@ -45,8 +45,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cb_turmas = new System.Windows.Forms.ComboBox();
             this.dgv_alunos = new System.Windows.Forms.DataGridView();
+            this.pb_foto = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_alunos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_foto)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -56,7 +59,7 @@
             this.panel1.Controls.Add(this.btn_financeiro);
             this.panel1.Controls.Add(this.btn_fechar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 384);
+            this.panel1.Location = new System.Drawing.Point(0, 407);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(641, 30);
             this.panel1.TabIndex = 1;
@@ -69,6 +72,7 @@
             this.btn_salvaredicoes.TabIndex = 6;
             this.btn_salvaredicoes.Text = "Salvar Edições";
             this.btn_salvaredicoes.UseVisualStyleBackColor = true;
+            this.btn_salvaredicoes.Click += new System.EventHandler(this.btn_salvaredicoes_Click);
             // 
             // btn_excluiraluno
             // 
@@ -78,6 +82,7 @@
             this.btn_excluiraluno.TabIndex = 5;
             this.btn_excluiraluno.Text = "Excluir Aluno";
             this.btn_excluiraluno.UseVisualStyleBackColor = true;
+            this.btn_excluiraluno.Click += new System.EventHandler(this.btn_excluiraluno_Click);
             // 
             // btn_financeiro
             // 
@@ -96,6 +101,7 @@
             this.btn_fechar.TabIndex = 3;
             this.btn_fechar.Text = "Fechar";
             this.btn_fechar.UseVisualStyleBackColor = true;
+            this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
             // 
             // label1
             // 
@@ -201,14 +207,36 @@
             this.dgv_alunos.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_alunos.RowHeadersVisible = false;
             this.dgv_alunos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_alunos.Size = new System.Drawing.Size(316, 366);
+            this.dgv_alunos.Size = new System.Drawing.Size(316, 389);
             this.dgv_alunos.TabIndex = 11;
+            this.dgv_alunos.SelectionChanged += new System.EventHandler(this.dgv_alunos_SelectionChanged);
+            // 
+            // pb_foto
+            // 
+            this.pb_foto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pb_foto.Location = new System.Drawing.Point(337, 252);
+            this.pb_foto.Name = "pb_foto";
+            this.pb_foto.Size = new System.Drawing.Size(125, 125);
+            this.pb_foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_foto.TabIndex = 18;
+            this.pb_foto.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(334, 380);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(151, 13);
+            this.label5.TabIndex = 19;
+            this.label5.Text = "Clique duplo para alterar a foto";
             // 
             // F_GestaoAlunos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(641, 414);
+            this.ClientSize = new System.Drawing.Size(641, 437);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.pb_foto);
             this.Controls.Add(this.dgv_alunos);
             this.Controls.Add(this.cb_turmas);
             this.Controls.Add(this.label4);
@@ -229,6 +257,7 @@
             this.Load += new System.EventHandler(this.F_GestaoAlunos_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_alunos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_foto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -250,5 +279,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cb_turmas;
         private System.Windows.Forms.DataGridView dgv_alunos;
+        private System.Windows.Forms.PictureBox pb_foto;
+        private System.Windows.Forms.Label label5;
     }
 }
