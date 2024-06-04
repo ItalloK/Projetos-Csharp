@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\itall\\Downloads\\JogoDaVelha-main\\JogoDaVelha.csproj": {}
+    "D:\\Jogos Não Steam\\Programação\\Projetos C#\\Jogo Da Velha\\JogoDaVelha.csproj": {}
   },
   "projects": {
-    "C:\\Users\\itall\\Downloads\\JogoDaVelha-main\\JogoDaVelha.csproj": {
+    "D:\\Jogos Não Steam\\Programação\\Projetos C#\\Jogo Da Velha\\JogoDaVelha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\itall\\Downloads\\JogoDaVelha-main\\JogoDaVelha.csproj",
+        "projectUniqueName": "D:\\Jogos Não Steam\\Programação\\Projetos C#\\Jogo Da Velha\\JogoDaVelha.csproj",
         "projectName": "JogoDaVelha",
-        "projectPath": "C:\\Users\\itall\\Downloads\\JogoDaVelha-main\\JogoDaVelha.csproj",
+        "projectPath": "D:\\Jogos Não Steam\\Programação\\Projetos C#\\Jogo Da Velha\\JogoDaVelha.csproj",
         "packagesPath": "C:\\Users\\itall\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\itall\\Downloads\\JogoDaVelha-main\\obj\\",
+        "outputPath": "D:\\Jogos Não Steam\\Programação\\Projetos C#\\Jogo Da Velha\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\itall\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

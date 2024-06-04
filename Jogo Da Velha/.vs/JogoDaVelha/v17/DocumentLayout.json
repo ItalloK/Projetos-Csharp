@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\itall\\Downloads\\JogoDaVelha-main\\",
+  "WorkspaceRootPath": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|c:\\users\\itall\\downloads\\jogodavelha-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|d:\\jogos n\u00E3o steam\\programa\u00E7\u00E3o\\projetos c#\\jogo da velha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|d:\\jogos n\u00E3o steam\\programa\u00E7\u00E3o\\projetos c#\\jogo da velha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,15 +18,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAANYAAAAAAAAAAAAAALcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T01:56:37.179Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\itall\\Downloads\\JogoDaVelha-main\\Form1.cs",
+              "DocumentMoniker": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\itall\\Downloads\\JogoDaVelha-main\\Form1.cs [Projeto]",
+              "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Form1.cs [Projeto]",
               "RelativeToolTip": "Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T13:48:11.928Z",

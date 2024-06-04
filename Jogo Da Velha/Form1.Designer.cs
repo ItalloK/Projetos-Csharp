@@ -59,9 +59,14 @@
             button17 = new Button();
             panel4 = new Panel();
             panel1 = new Panel();
+            menuStrip1 = new MenuStrip();
+            tEMASToolStripMenuItem = new ToolStripMenuItem();
+            rosaToolStripMenuItem = new ToolStripMenuItem();
+            pretoToolStripMenuItem = new ToolStripMenuItem();
             panel5.SuspendLayout();
             panel3.SuspendLayout();
             panel1.SuspendLayout();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // btnlimpar
@@ -73,7 +78,7 @@
             btnlimpar.FlatStyle = FlatStyle.Flat;
             btnlimpar.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             btnlimpar.ForeColor = SystemColors.ActiveCaptionText;
-            btnlimpar.Location = new Point(84, 303);
+            btnlimpar.Location = new Point(84, 326);
             btnlimpar.Name = "btnlimpar";
             btnlimpar.Size = new Size(309, 53);
             btnlimpar.TabIndex = 2;
@@ -164,7 +169,7 @@
             panel5.Controls.Add(Empates);
             panel5.Controls.Add(BolaPontos);
             panel5.Controls.Add(PontosX);
-            panel5.Location = new Point(0, 371);
+            panel5.Location = new Point(0, 394);
             panel5.Name = "panel5";
             panel5.Size = new Size(491, 90);
             panel5.TabIndex = 1;
@@ -467,11 +472,41 @@
             panel1.Controls.Add(button1);
             panel1.Controls.Add(btm);
             panel1.Controls.Add(panel2);
-            panel1.Location = new Point(0, 12);
+            panel1.Location = new Point(0, 35);
             panel1.Name = "panel1";
             panel1.Size = new Size(482, 273);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { tEMASToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(484, 24);
+            menuStrip1.TabIndex = 3;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // tEMASToolStripMenuItem
+            // 
+            tEMASToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { rosaToolStripMenuItem, pretoToolStripMenuItem });
+            tEMASToolStripMenuItem.Name = "tEMASToolStripMenuItem";
+            tEMASToolStripMenuItem.Size = new Size(56, 20);
+            tEMASToolStripMenuItem.Text = "TEMAS";
+            // 
+            // rosaToolStripMenuItem
+            // 
+            rosaToolStripMenuItem.Name = "rosaToolStripMenuItem";
+            rosaToolStripMenuItem.Size = new Size(102, 22);
+            rosaToolStripMenuItem.Text = "Rosa";
+            rosaToolStripMenuItem.Click += rosaToolStripMenuItem_Click;
+            // 
+            // pretoToolStripMenuItem
+            // 
+            pretoToolStripMenuItem.Name = "pretoToolStripMenuItem";
+            pretoToolStripMenuItem.Size = new Size(102, 22);
+            pretoToolStripMenuItem.Text = "Preto";
+            pretoToolStripMenuItem.Click += pretoToolStripMenuItem_Click;
             // 
             // Form1
             // 
@@ -480,12 +515,14 @@
             BackColor = SystemColors.InactiveCaption;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(484, 461);
+            ClientSize = new Size(484, 489);
             Controls.Add(btnlimpar);
             Controls.Add(panel5);
             Controls.Add(panel1);
+            Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MainMenuStrip = menuStrip1;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Form1";
@@ -496,7 +533,10 @@
             panel5.PerformLayout();
             panel3.ResumeLayout(false);
             panel1.ResumeLayout(false);
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -530,5 +570,9 @@
         private Button button17;
         private Panel panel4;
         private Panel panel1;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem tEMASToolStripMenuItem;
+        private ToolStripMenuItem rosaToolStripMenuItem;
+        private ToolStripMenuItem pretoToolStripMenuItem;
     }
 }

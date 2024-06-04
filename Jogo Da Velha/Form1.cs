@@ -166,5 +166,67 @@ namespace JogoDaVelha
         {
             panel1.BackColor = Color.FromArgb(100);
         }
+
+        private void pretoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string imagePath = @"temapreto.png";
+            this.BackgroundImage = Image.FromFile(imagePath);
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+            AlterarFundoBotao(Color.FromArgb(128, 128, 128));
+            AlterarCorFonte(Color.White);
+            AlterarCorBorda(Color.White);
+        }
+
+        private void rosaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string imagePath = @"temarosa.png";
+            this.BackgroundImage = Image.FromFile(imagePath);
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+            AlterarFundoBotao(Color.FromArgb(255, 192, 255));
+            AlterarCorFonte(Color.Black);
+            AlterarCorBorda(Color.FromArgb(255, 0, 255));
+        }
+
+        private void AlterarCorBorda(Color cor)
+        {
+            btm.FlatAppearance.BorderColor = cor;
+            button2.FlatAppearance.BorderColor = cor;
+            button1.FlatAppearance.BorderColor = cor;
+            button3.FlatAppearance.BorderColor = cor;
+            button4.FlatAppearance.BorderColor = cor;
+            button5.FlatAppearance.BorderColor = cor;
+            button6.FlatAppearance.BorderColor = cor;
+            button7.FlatAppearance.BorderColor = cor;
+            button8.FlatAppearance.BorderColor = cor;
+            btnlimpar.FlatAppearance.BorderColor = cor;
+        }
+
+        private void AlterarCorFonte(Color cor)
+        {
+            btm.ForeColor = cor;
+            button2.ForeColor = cor;
+            button1.ForeColor = cor;
+            button3.ForeColor = cor;
+            button4.ForeColor = cor;
+            button5.ForeColor = cor;
+            button6.ForeColor = cor;
+            button7.ForeColor = cor;
+            button8.ForeColor = cor;
+            btnlimpar.ForeColor = cor;
+        }
+
+        private void AlterarFundoBotao(Color cor)
+        {
+            btnlimpar.BackColor = cor;
+            button2.FlatAppearance.MouseOverBackColor = cor;
+            btm.FlatAppearance.MouseOverBackColor = cor;
+            button1.FlatAppearance.MouseOverBackColor = cor;
+            button3.FlatAppearance.MouseOverBackColor = cor;
+            button4.FlatAppearance.MouseOverBackColor = cor;
+            button5.FlatAppearance.MouseOverBackColor = cor;
+            button6.FlatAppearance.MouseOverBackColor = cor;
+            button7.FlatAppearance.MouseOverBackColor = cor;
+            button8.FlatAppearance.MouseOverBackColor = cor;
+        }
     }
 }

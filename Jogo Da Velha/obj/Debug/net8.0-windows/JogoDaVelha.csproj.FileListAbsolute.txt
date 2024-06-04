@@ -33,3 +33,21 @@ C:\Users\itall\Downloads\JogoDaVelha-main\obj\Debug\net8.0-windows\refint\JogoDa
 C:\Users\itall\Downloads\JogoDaVelha-main\obj\Debug\net8.0-windows\JogoDaVelha.pdb
 C:\Users\itall\Downloads\JogoDaVelha-main\obj\Debug\net8.0-windows\JogoDaVelha.genruntimeconfig.cache
 C:\Users\itall\Downloads\JogoDaVelha-main\obj\Debug\net8.0-windows\ref\JogoDaVelha.dll
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\bin\Debug\net8.0-windows\JogoDaVelha.exe
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\bin\Debug\net8.0-windows\JogoDaVelha.deps.json
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\bin\Debug\net8.0-windows\JogoDaVelha.runtimeconfig.json
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\bin\Debug\net8.0-windows\JogoDaVelha.dll
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\bin\Debug\net8.0-windows\JogoDaVelha.pdb
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.Form1.resources
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.Properties.Resources.resources
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.csproj.GenerateResource.cache
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.AssemblyInfoInputs.cache
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.AssemblyInfo.cs
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.csproj.CoreCompileInputs.cache
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.sourcelink.json
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.dll
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\refint\JogoDaVelha.dll
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.pdb
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.genruntimeconfig.cache
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\ref\JogoDaVelha.dll
