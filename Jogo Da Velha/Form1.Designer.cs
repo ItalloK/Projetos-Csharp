@@ -64,6 +64,7 @@
             rosaToolStripMenuItem = new ToolStripMenuItem();
             pretoToolStripMenuItem = new ToolStripMenuItem();
             flamengoToolStripMenuItem = new ToolStripMenuItem();
+            versusToolStripMenuItem = new ToolStripMenuItem();
             panel5.SuspendLayout();
             panel3.SuspendLayout();
             panel1.SuspendLayout();
@@ -481,7 +482,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { tEMASToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { tEMASToolStripMenuItem, versusToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(484, 24);
@@ -498,23 +499,30 @@
             // rosaToolStripMenuItem
             // 
             rosaToolStripMenuItem.Name = "rosaToolStripMenuItem";
-            rosaToolStripMenuItem.Size = new Size(180, 22);
+            rosaToolStripMenuItem.Size = new Size(127, 22);
             rosaToolStripMenuItem.Text = "Rosa";
             rosaToolStripMenuItem.Click += rosaToolStripMenuItem_Click;
             // 
             // pretoToolStripMenuItem
             // 
             pretoToolStripMenuItem.Name = "pretoToolStripMenuItem";
-            pretoToolStripMenuItem.Size = new Size(180, 22);
+            pretoToolStripMenuItem.Size = new Size(127, 22);
             pretoToolStripMenuItem.Text = "Preto";
             pretoToolStripMenuItem.Click += pretoToolStripMenuItem_Click;
             // 
             // flamengoToolStripMenuItem
             // 
             flamengoToolStripMenuItem.Name = "flamengoToolStripMenuItem";
-            flamengoToolStripMenuItem.Size = new Size(180, 22);
+            flamengoToolStripMenuItem.Size = new Size(127, 22);
             flamengoToolStripMenuItem.Text = "Flamengo";
             flamengoToolStripMenuItem.Click += flamengoToolStripMenuItem_Click;
+            // 
+            // versusToolStripMenuItem
+            // 
+            versusToolStripMenuItem.Name = "versusToolStripMenuItem";
+            versusToolStripMenuItem.Size = new Size(52, 20);
+            versusToolStripMenuItem.Text = "Versus";
+            versusToolStripMenuItem.Click += versusToolStripMenuItem_Click;
             // 
             // Form1
             // 
@@ -583,5 +591,6 @@
         private ToolStripMenuItem rosaToolStripMenuItem;
         private ToolStripMenuItem pretoToolStripMenuItem;
         private ToolStripMenuItem flamengoToolStripMenuItem;
+        private ToolStripMenuItem versusToolStripMenuItem;
     }
 }

@@ -92,7 +92,7 @@ namespace JogoDaVelha
                 MessageBox.Show("Jogador O ganhou!!");
                 turno = false;
             }
-            
+
 
         }
 
@@ -269,7 +269,7 @@ namespace JogoDaVelha
             btnlimpar.FlatAppearance.BorderColor = Color.FromArgb(255, 0, 0);
 
 
-            btnlimpar.BackColor = Color.FromArgb(0, 0 ,0); //quando passao mouse em cima
+            btnlimpar.BackColor = Color.FromArgb(0, 0, 0); //quando passao mouse em cima
         }
 
         private void tocarFlamengo()
@@ -296,6 +296,12 @@ namespace JogoDaVelha
                 texto[i] = "";
 
             }
+        }
+
+        private void versusToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_Times f_Times = new F_Times();
+            f_Times.ShowDialog();
         }
     }
 }

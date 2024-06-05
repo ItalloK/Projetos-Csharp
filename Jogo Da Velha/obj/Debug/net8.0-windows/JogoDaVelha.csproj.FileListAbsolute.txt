@@ -51,3 +51,4 @@ D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-win
 D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.pdb
 D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.genruntimeconfig.cache
 D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\ref\JogoDaVelha.dll
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.F_Times.resources
