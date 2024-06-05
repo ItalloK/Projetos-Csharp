@@ -5,6 +5,14 @@ namespace JogoDaVelha
 {
     public partial class Form1 : Form
     {
+        private static string soundSelecionado = "";
+        string[] soundsFla = new string[]
+        {
+            "sounds\\audiofla.wav",
+            "sounds\\babigol.wav",
+            "sounds\\hinogolfla.wav"
+        };
+        private static string valorSelecionado = "";
 
         int XPlayer = 0, OPlayer = 0, EmpatesPontos = 0, Rodadas = 0;
         bool turno = true, fimjogo = false;
@@ -64,6 +72,9 @@ namespace JogoDaVelha
         {
             if (isFlamengo == true)
             {
+                Random random = new Random();
+                int indiceAleatorio = random.Next(soundsFla.Length);
+                valorSelecionado = soundsFla[indiceAleatorio];
                 tocarFlamengo();
             }
             fimjogo = true;
@@ -164,7 +175,7 @@ namespace JogoDaVelha
         {
             funcLimpar();
             isFlamengo = false;
-            string imagePath = @"temapreto.png";
+            string imagePath = "themes\\temapreto.png";
             this.BackgroundImage = Image.FromFile(imagePath);
             this.BackgroundImageLayout = ImageLayout.Stretch;
             AlterarFundoBotao(Color.FromArgb(128, 128, 128));
@@ -176,7 +187,7 @@ namespace JogoDaVelha
         {
             funcLimpar();
             isFlamengo = false;
-            string imagePath = @"temarosa.png";
+            string imagePath = "themes\\temarosa.png";
             this.BackgroundImage = Image.FromFile(imagePath);
             this.BackgroundImageLayout = ImageLayout.Stretch;
             AlterarFundoBotao(Color.FromArgb(255, 192, 255));
@@ -230,7 +241,7 @@ namespace JogoDaVelha
         {
             funcLimpar();
             isFlamengo = true;
-            string imagePath = @"temaflamengo.png";
+            string imagePath = "themes\\temaflamengo.png";
             this.BackgroundImage = Image.FromFile(imagePath);
             this.BackgroundImageLayout = ImageLayout.Stretch;
             AlterarCorFonte(Color.White);
@@ -263,7 +274,7 @@ namespace JogoDaVelha
 
         private void tocarFlamengo()
         {
-            SoundPlayer simpleSound = new SoundPlayer(@"audiofla.wav");
+            SoundPlayer simpleSound = new SoundPlayer(valorSelecionado);
             simpleSound.Play();
         }
 
