@@ -63,6 +63,7 @@
             tEMASToolStripMenuItem = new ToolStripMenuItem();
             rosaToolStripMenuItem = new ToolStripMenuItem();
             pretoToolStripMenuItem = new ToolStripMenuItem();
+            flamengoToolStripMenuItem = new ToolStripMenuItem();
             panel5.SuspendLayout();
             panel3.SuspendLayout();
             panel1.SuspendLayout();
@@ -489,24 +490,31 @@
             // 
             // tEMASToolStripMenuItem
             // 
-            tEMASToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { rosaToolStripMenuItem, pretoToolStripMenuItem });
+            tEMASToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { rosaToolStripMenuItem, pretoToolStripMenuItem, flamengoToolStripMenuItem });
             tEMASToolStripMenuItem.Name = "tEMASToolStripMenuItem";
-            tEMASToolStripMenuItem.Size = new Size(56, 20);
-            tEMASToolStripMenuItem.Text = "TEMAS";
+            tEMASToolStripMenuItem.Size = new Size(52, 20);
+            tEMASToolStripMenuItem.Text = "Temas";
             // 
             // rosaToolStripMenuItem
             // 
             rosaToolStripMenuItem.Name = "rosaToolStripMenuItem";
-            rosaToolStripMenuItem.Size = new Size(102, 22);
+            rosaToolStripMenuItem.Size = new Size(180, 22);
             rosaToolStripMenuItem.Text = "Rosa";
             rosaToolStripMenuItem.Click += rosaToolStripMenuItem_Click;
             // 
             // pretoToolStripMenuItem
             // 
             pretoToolStripMenuItem.Name = "pretoToolStripMenuItem";
-            pretoToolStripMenuItem.Size = new Size(102, 22);
+            pretoToolStripMenuItem.Size = new Size(180, 22);
             pretoToolStripMenuItem.Text = "Preto";
             pretoToolStripMenuItem.Click += pretoToolStripMenuItem_Click;
+            // 
+            // flamengoToolStripMenuItem
+            // 
+            flamengoToolStripMenuItem.Name = "flamengoToolStripMenuItem";
+            flamengoToolStripMenuItem.Size = new Size(180, 22);
+            flamengoToolStripMenuItem.Text = "Flamengo";
+            flamengoToolStripMenuItem.Click += flamengoToolStripMenuItem_Click;
             // 
             // Form1
             // 
@@ -574,5 +582,6 @@
         private ToolStripMenuItem tEMASToolStripMenuItem;
         private ToolStripMenuItem rosaToolStripMenuItem;
         private ToolStripMenuItem pretoToolStripMenuItem;
+        private ToolStripMenuItem flamengoToolStripMenuItem;
     }
 }

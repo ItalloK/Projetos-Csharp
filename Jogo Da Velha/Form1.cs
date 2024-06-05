@@ -1,3 +1,6 @@
+using System.Media;
+using System.Runtime.ConstrainedExecution;
+
 namespace JogoDaVelha
 {
     public partial class Form1 : Form
@@ -6,6 +9,7 @@ namespace JogoDaVelha
         int XPlayer = 0, OPlayer = 0, EmpatesPontos = 0, Rodadas = 0;
         bool turno = true, fimjogo = false;
         string[] texto = new string[9];
+        Boolean isFlamengo = false;
 
         public Form1()
         {
@@ -58,6 +62,10 @@ namespace JogoDaVelha
 
         void Vencedor(int PlayerCampeao)
         {
+            if (isFlamengo == true)
+            {
+                tocarFlamengo();
+            }
             fimjogo = true;
             if (PlayerCampeao == 1)
             {
@@ -73,7 +81,7 @@ namespace JogoDaVelha
                 MessageBox.Show("Jogador O ganhou!!");
                 turno = false;
             }
-
+            
 
         }
 
@@ -144,22 +152,7 @@ namespace JogoDaVelha
 
         private void btnlimpar_Click(object sender, EventArgs e)
         {
-            btm.Text = "";
-            button1.Text = "";
-            button2.Text = "";
-            button3.Text = "";
-            button4.Text = "";
-            button5.Text = "";
-            button6.Text = "";
-            button7.Text = "";
-            button8.Text = "";
-            Rodadas = 0;
-            fimjogo = false;
-            for (int i = 0; i < 9; i++)
-            {
-                texto[i] = "";
-
-            }
+            funcLimpar();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -169,6 +162,8 @@ namespace JogoDaVelha
 
         private void pretoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            funcLimpar();
+            isFlamengo = false;
             string imagePath = @"temapreto.png";
             this.BackgroundImage = Image.FromFile(imagePath);
             this.BackgroundImageLayout = ImageLayout.Stretch;
@@ -179,6 +174,8 @@ namespace JogoDaVelha
 
         private void rosaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            funcLimpar();
+            isFlamengo = false;
             string imagePath = @"temarosa.png";
             this.BackgroundImage = Image.FromFile(imagePath);
             this.BackgroundImageLayout = ImageLayout.Stretch;
@@ -227,6 +224,67 @@ namespace JogoDaVelha
             button6.FlatAppearance.MouseOverBackColor = cor;
             button7.FlatAppearance.MouseOverBackColor = cor;
             button8.FlatAppearance.MouseOverBackColor = cor;
+        }
+
+        private void flamengoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            funcLimpar();
+            isFlamengo = true;
+            string imagePath = @"temaflamengo.png";
+            this.BackgroundImage = Image.FromFile(imagePath);
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+            AlterarCorFonte(Color.White);
+            /* Cor quando passa o mouse por cima */
+            btm.FlatAppearance.MouseOverBackColor = Color.FromArgb(211, 211, 211);
+            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(211, 211, 211);
+            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(211, 211, 211);
+            button3.FlatAppearance.MouseOverBackColor = Color.FromArgb(211, 211, 211);
+            button4.FlatAppearance.MouseOverBackColor = Color.FromArgb(211, 211, 211);
+            button5.FlatAppearance.MouseOverBackColor = Color.FromArgb(211, 211, 211);
+            button6.FlatAppearance.MouseOverBackColor = Color.FromArgb(211, 211, 211);
+            button7.FlatAppearance.MouseOverBackColor = Color.FromArgb(211, 211, 211);
+            button8.FlatAppearance.MouseOverBackColor = Color.FromArgb(211, 211, 211);
+
+            /* Bordas dos Botões */
+            btm.FlatAppearance.BorderColor = Color.FromArgb(255, 0, 0);
+            button2.FlatAppearance.BorderColor = Color.FromArgb(255, 0, 0);
+            button1.FlatAppearance.BorderColor = Color.FromArgb(255, 0, 0);
+            button3.FlatAppearance.BorderColor = Color.Black;
+            button4.FlatAppearance.BorderColor = Color.Black;
+            button5.FlatAppearance.BorderColor = Color.Black;
+            button6.FlatAppearance.BorderColor = Color.FromArgb(255, 0, 0);
+            button7.FlatAppearance.BorderColor = Color.FromArgb(255, 0, 0);
+            button8.FlatAppearance.BorderColor = Color.FromArgb(255, 0, 0);
+            btnlimpar.FlatAppearance.BorderColor = Color.FromArgb(255, 0, 0);
+
+
+            btnlimpar.BackColor = Color.FromArgb(0, 0 ,0); //quando passao mouse em cima
+        }
+
+        private void tocarFlamengo()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(@"audiofla.wav");
+            simpleSound.Play();
+        }
+
+        private void funcLimpar()
+        {
+            btm.Text = "";
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+            Rodadas = 0;
+            fimjogo = false;
+            for (int i = 0; i < 9; i++)
+            {
+                texto[i] = "";
+
+            }
         }
     }
 }
