@@ -223,16 +223,6 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Logo_Cruzeiro_1996 {
-            get {
-                object obj = ResourceManager.GetObject("Logo_Cruzeiro_1996", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap lPalmeiras {
             get {
                 object obj = ResourceManager.GetObject("lPalmeiras", resourceCulture);
