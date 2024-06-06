@@ -118,67 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Logo_Cruzeiro_1996" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo_Cruzeiro_1996.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lSaoPaulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lSaoPaulo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Esporte_Clube_Bahia_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Esporte_Clube_Bahia_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lBotafogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lBotafogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FFC_crest.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FFC_crest.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lSantos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lSantos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2560px-EscudoCriciumaEC.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2560px-EscudoCriciumaEC.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lFortaleza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lFortaleza1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lFluminense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lFluminense1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lBahia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lBahia1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lGremio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lGremio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lVitoria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lVitoria1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lBragantino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lBragantino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="804adca03d855f508928422ddc90c4f8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\804adca03d855f508928422ddc90c4f8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CRVascodaGama" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CRVascodaGama.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lInternacional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lInternacional1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Esporte_Clube_Vitória_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Esporte_Clube_Vitória_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lFlamengo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lFlamengo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1200px-Atletico_mineiro_galo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1200px-Atletico_mineiro_galo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo_Cruzeiro_1996" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_Cruzeiro_1996.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Palmeiras_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Palmeiras_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lAthleticoPR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lAthleticoPR1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fortaleza_EC_2018" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fortaleza_EC_2018.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lVasco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lVasco1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Santos_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Santos_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lCeara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCeara1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Flamengo-RJ_(BRA)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flamengo-RJ_(BRA).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lPalmeiras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lPalmeiras1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="São_Paulo_Futebol_Clube" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\São_Paulo_Futebol_Clube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lCriciuma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCriciuma1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gremio_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gremio_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lJuventude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lJuventude1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Escudo_do_Sport_Club_Internacional.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Escudo_do_Sport_Club_Internacional.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lAtleticoMG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lAtleticoMG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RedBullBragantino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RedBullBragantino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lCorinthians" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCorinthians1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Escudo_Botafogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Escudo_Botafogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Club_Athletico_Paranaense_2019" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Club_Athletico_Paranaense_2019.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sport_Club_Corinthians_Paulista_crest.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sport_Club_Corinthians_Paulista_crest.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ceará_Sporting_Club_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ceará_Sporting_Club_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EC_Juventude.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EC_Juventude.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lCruzeiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCruzeiro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

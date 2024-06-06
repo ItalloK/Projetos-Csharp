@@ -63,26 +63,6 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1200px_Atletico_mineiro_galo {
-            get {
-                object obj = ResourceManager.GetObject("1200px-Atletico_mineiro_galo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _2560px_EscudoCriciumaEC_svg {
-            get {
-                object obj = ResourceManager.GetObject("2560px-EscudoCriciumaEC.svg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _804adca03d855f508928422ddc90c4f8 {
             get {
                 object obj = ResourceManager.GetObject("804adca03d855f508928422ddc90c4f8", resourceCulture);
@@ -93,9 +73,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ceará_Sporting_Club_logo_svg {
+        internal static System.Drawing.Bitmap lAthleticoPR {
             get {
-                object obj = ResourceManager.GetObject("Ceará_Sporting_Club_logo.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("lAthleticoPR", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +83,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Club_Athletico_Paranaense_2019 {
+        internal static System.Drawing.Bitmap lAtleticoMG {
             get {
-                object obj = ResourceManager.GetObject("Club_Athletico_Paranaense_2019", resourceCulture);
+                object obj = ResourceManager.GetObject("lAtleticoMG", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +93,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CRVascodaGama {
+        internal static System.Drawing.Bitmap lBahia {
             get {
-                object obj = ResourceManager.GetObject("CRVascodaGama", resourceCulture);
+                object obj = ResourceManager.GetObject("lBahia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +103,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap EC_Juventude_svg {
+        internal static System.Drawing.Bitmap lBotafogo {
             get {
-                object obj = ResourceManager.GetObject("EC_Juventude.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("lBotafogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +113,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Escudo_Botafogo {
+        internal static System.Drawing.Bitmap lBragantino {
             get {
-                object obj = ResourceManager.GetObject("Escudo_Botafogo", resourceCulture);
+                object obj = ResourceManager.GetObject("lBragantino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +123,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Escudo_do_Sport_Club_Internacional_svg {
+        internal static System.Drawing.Bitmap lCeara {
             get {
-                object obj = ResourceManager.GetObject("Escudo_do_Sport_Club_Internacional.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("lCeara", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +133,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Esporte_Clube_Bahia_logo_svg {
+        internal static System.Drawing.Bitmap lCorinthians {
             get {
-                object obj = ResourceManager.GetObject("Esporte_Clube_Bahia_logo.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("lCorinthians", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +143,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Esporte_Clube_Vitória_logo {
+        internal static System.Drawing.Bitmap lCriciuma {
             get {
-                object obj = ResourceManager.GetObject("Esporte_Clube_Vitória_logo", resourceCulture);
+                object obj = ResourceManager.GetObject("lCriciuma", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +153,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FFC_crest_svg {
+        internal static System.Drawing.Bitmap lCruzeiro {
             get {
-                object obj = ResourceManager.GetObject("FFC_crest.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("lCruzeiro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +163,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Flamengo_RJ__BRA_ {
+        internal static System.Drawing.Bitmap lFlamengo {
             get {
-                object obj = ResourceManager.GetObject("Flamengo-RJ_(BRA)", resourceCulture);
+                object obj = ResourceManager.GetObject("lFlamengo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +173,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Fortaleza_EC_2018 {
+        internal static System.Drawing.Bitmap lFluminense {
             get {
-                object obj = ResourceManager.GetObject("Fortaleza_EC_2018", resourceCulture);
+                object obj = ResourceManager.GetObject("lFluminense", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +183,39 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Gremio_logo_svg {
+        internal static System.Drawing.Bitmap lFortaleza {
             get {
-                object obj = ResourceManager.GetObject("Gremio_logo.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("lFortaleza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lGremio {
+            get {
+                object obj = ResourceManager.GetObject("lGremio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lInternacional {
+            get {
+                object obj = ResourceManager.GetObject("lInternacional", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lJuventude {
+            get {
+                object obj = ResourceManager.GetObject("lJuventude", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +233,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Palmeiras_logo_svg {
+        internal static System.Drawing.Bitmap lPalmeiras {
             get {
-                object obj = ResourceManager.GetObject("Palmeiras_logo.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("lPalmeiras", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +243,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RedBullBragantino {
+        internal static System.Drawing.Bitmap lSantos {
             get {
-                object obj = ResourceManager.GetObject("RedBullBragantino", resourceCulture);
+                object obj = ResourceManager.GetObject("lSantos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +253,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Santos_Logo {
+        internal static System.Drawing.Bitmap lSaoPaulo {
             get {
-                object obj = ResourceManager.GetObject("Santos_Logo", resourceCulture);
+                object obj = ResourceManager.GetObject("lSaoPaulo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +263,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap São_Paulo_Futebol_Clube {
+        internal static System.Drawing.Bitmap lVasco {
             get {
-                object obj = ResourceManager.GetObject("São_Paulo_Futebol_Clube", resourceCulture);
+                object obj = ResourceManager.GetObject("lVasco", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +273,9 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Sport_Club_Corinthians_Paulista_crest_svg {
+        internal static System.Drawing.Bitmap lVitoria {
             get {
-                object obj = ResourceManager.GetObject("Sport_Club_Corinthians_Paulista_crest.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("lVitoria", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

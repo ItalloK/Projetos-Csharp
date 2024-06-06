@@ -62,8 +62,8 @@
             // button1
             // 
             button1.BackColor = Color.Transparent;
-            button1.BackgroundImage = Properties.Resources.Flamengo_RJ__BRA_;
-            button1.BackgroundImageLayout = ImageLayout.Stretch;
+            button1.BackgroundImage = Properties.Resources.lFlamengo;
+            button1.BackgroundImageLayout = ImageLayout.Center;
             button1.Location = new Point(12, 50);
             button1.Name = "button1";
             button1.Size = new Size(75, 75);
@@ -74,8 +74,8 @@
             // button2
             // 
             button2.BackColor = Color.Transparent;
-            button2.BackgroundImage = Properties.Resources.CRVascodaGama;
-            button2.BackgroundImageLayout = ImageLayout.Stretch;
+            button2.BackgroundImage = Properties.Resources.lVasco;
+            button2.BackgroundImageLayout = ImageLayout.Center;
             button2.Location = new Point(93, 50);
             button2.Name = "button2";
             button2.Size = new Size(75, 75);
@@ -86,8 +86,8 @@
             // button3
             // 
             button3.BackColor = Color.Transparent;
-            button3.BackgroundImage = Properties.Resources.São_Paulo_Futebol_Clube;
-            button3.BackgroundImageLayout = ImageLayout.Stretch;
+            button3.BackgroundImage = Properties.Resources.lSaoPaulo;
+            button3.BackgroundImageLayout = ImageLayout.Center;
             button3.Location = new Point(174, 50);
             button3.Name = "button3";
             button3.Size = new Size(75, 75);
@@ -98,8 +98,8 @@
             // button4
             // 
             button4.BackColor = Color.Transparent;
-            button4.BackgroundImage = Properties.Resources.Santos_Logo;
-            button4.BackgroundImageLayout = ImageLayout.Stretch;
+            button4.BackgroundImage = Properties.Resources.lSantos;
+            button4.BackgroundImageLayout = ImageLayout.Center;
             button4.Location = new Point(255, 50);
             button4.Name = "button4";
             button4.Size = new Size(75, 75);
@@ -110,8 +110,8 @@
             // button5
             // 
             button5.BackColor = Color.Transparent;
-            button5.BackgroundImage = Properties.Resources.FFC_crest_svg;
-            button5.BackgroundImageLayout = ImageLayout.Stretch;
+            button5.BackgroundImage = Properties.Resources.lFluminense;
+            button5.BackgroundImageLayout = ImageLayout.Center;
             button5.Location = new Point(336, 50);
             button5.Name = "button5";
             button5.Size = new Size(75, 75);
@@ -122,8 +122,8 @@
             // button8
             // 
             button8.BackColor = Color.Transparent;
-            button8.BackgroundImage = Properties.Resources.Fortaleza_EC_2018;
-            button8.BackgroundImageLayout = ImageLayout.Stretch;
+            button8.BackgroundImage = Properties.Resources.lFortaleza;
+            button8.BackgroundImageLayout = ImageLayout.Center;
             button8.Location = new Point(336, 131);
             button8.Name = "button8";
             button8.Size = new Size(75, 75);
@@ -134,8 +134,8 @@
             // button9
             // 
             button9.BackColor = Color.Transparent;
-            button9.BackgroundImage = Properties.Resources.Esporte_Clube_Bahia_logo_svg;
-            button9.BackgroundImageLayout = ImageLayout.Stretch;
+            button9.BackgroundImage = Properties.Resources.lBahia;
+            button9.BackgroundImageLayout = ImageLayout.Center;
             button9.Location = new Point(255, 131);
             button9.Name = "button9";
             button9.Size = new Size(75, 75);
@@ -146,8 +146,8 @@
             // button10
             // 
             button10.BackColor = Color.Transparent;
-            button10.BackgroundImage = Properties.Resources.Escudo_do_Sport_Club_Internacional_svg;
-            button10.BackgroundImageLayout = ImageLayout.Stretch;
+            button10.BackgroundImage = Properties.Resources.lInternacional;
+            button10.BackgroundImageLayout = ImageLayout.Center;
             button10.Location = new Point(174, 131);
             button10.Name = "button10";
             button10.Size = new Size(75, 75);
@@ -158,8 +158,8 @@
             // button11
             // 
             button11.BackColor = Color.Transparent;
-            button11.BackgroundImage = Properties.Resources.Escudo_Botafogo;
-            button11.BackgroundImageLayout = ImageLayout.Stretch;
+            button11.BackgroundImage = Properties.Resources.lBotafogo;
+            button11.BackgroundImageLayout = ImageLayout.Center;
             button11.Location = new Point(93, 131);
             button11.Name = "button11";
             button11.Size = new Size(75, 75);
@@ -170,8 +170,8 @@
             // button12
             // 
             button12.BackColor = Color.Transparent;
-            button12.BackgroundImage = Properties.Resources._1200px_Atletico_mineiro_galo;
-            button12.BackgroundImageLayout = ImageLayout.Stretch;
+            button12.BackgroundImage = Properties.Resources.lAtleticoMG;
+            button12.BackgroundImageLayout = ImageLayout.Zoom;
             button12.Location = new Point(12, 131);
             button12.Name = "button12";
             button12.Size = new Size(75, 75);
@@ -182,8 +182,8 @@
             // button14
             // 
             button14.BackColor = Color.Transparent;
-            button14.BackgroundImage = Properties.Resources._2560px_EscudoCriciumaEC_svg;
-            button14.BackgroundImageLayout = ImageLayout.Stretch;
+            button14.BackgroundImage = Properties.Resources.lCriciuma;
+            button14.BackgroundImageLayout = ImageLayout.Center;
             button14.Location = new Point(336, 212);
             button14.Name = "button14";
             button14.Size = new Size(75, 75);
@@ -194,8 +194,8 @@
             // button15
             // 
             button15.BackColor = Color.Transparent;
-            button15.BackgroundImage = Properties.Resources.Gremio_logo_svg;
-            button15.BackgroundImageLayout = ImageLayout.Stretch;
+            button15.BackgroundImage = Properties.Resources.lGremio;
+            button15.BackgroundImageLayout = ImageLayout.Center;
             button15.Location = new Point(255, 212);
             button15.Name = "button15";
             button15.Size = new Size(75, 75);
@@ -206,8 +206,8 @@
             // button16
             // 
             button16.BackColor = Color.Transparent;
-            button16.BackgroundImage = Properties.Resources.Logo_Cruzeiro_1996;
-            button16.BackgroundImageLayout = ImageLayout.Stretch;
+            button16.BackgroundImage = Properties.Resources.lCruzeiro;
+            button16.BackgroundImageLayout = ImageLayout.Center;
             button16.Location = new Point(174, 212);
             button16.Name = "button16";
             button16.Size = new Size(75, 75);
@@ -218,8 +218,8 @@
             // button17
             // 
             button17.BackColor = Color.Transparent;
-            button17.BackgroundImage = Properties.Resources.Palmeiras_logo_svg;
-            button17.BackgroundImageLayout = ImageLayout.Stretch;
+            button17.BackgroundImage = Properties.Resources.lPalmeiras;
+            button17.BackgroundImageLayout = ImageLayout.Center;
             button17.Location = new Point(93, 212);
             button17.Name = "button17";
             button17.Size = new Size(75, 75);
@@ -230,8 +230,8 @@
             // button18
             // 
             button18.BackColor = Color.Transparent;
-            button18.BackgroundImage = Properties.Resources.Sport_Club_Corinthians_Paulista_crest_svg;
-            button18.BackgroundImageLayout = ImageLayout.Stretch;
+            button18.BackgroundImage = Properties.Resources.lCorinthians;
+            button18.BackgroundImageLayout = ImageLayout.Center;
             button18.Location = new Point(12, 212);
             button18.Name = "button18";
             button18.Size = new Size(75, 75);
@@ -242,8 +242,8 @@
             // button20
             // 
             button20.BackColor = Color.Transparent;
-            button20.BackgroundImage = Properties.Resources.Ceará_Sporting_Club_logo_svg;
-            button20.BackgroundImageLayout = ImageLayout.Stretch;
+            button20.BackgroundImage = Properties.Resources.lCeara;
+            button20.BackgroundImageLayout = ImageLayout.Center;
             button20.Location = new Point(336, 293);
             button20.Name = "button20";
             button20.Size = new Size(75, 75);
@@ -254,8 +254,8 @@
             // button21
             // 
             button21.BackColor = Color.Transparent;
-            button21.BackgroundImage = Properties.Resources.EC_Juventude_svg;
-            button21.BackgroundImageLayout = ImageLayout.Stretch;
+            button21.BackgroundImage = Properties.Resources.lJuventude;
+            button21.BackgroundImageLayout = ImageLayout.Center;
             button21.Location = new Point(255, 293);
             button21.Name = "button21";
             button21.Size = new Size(75, 75);
@@ -266,8 +266,8 @@
             // button22
             // 
             button22.BackColor = Color.Transparent;
-            button22.BackgroundImage = Properties.Resources.Esporte_Clube_Vitória_logo;
-            button22.BackgroundImageLayout = ImageLayout.Stretch;
+            button22.BackgroundImage = Properties.Resources.lVitoria;
+            button22.BackgroundImageLayout = ImageLayout.Zoom;
             button22.Location = new Point(174, 293);
             button22.Name = "button22";
             button22.Size = new Size(75, 75);
@@ -278,8 +278,8 @@
             // button23
             // 
             button23.BackColor = Color.Transparent;
-            button23.BackgroundImage = Properties.Resources.RedBullBragantino;
-            button23.BackgroundImageLayout = ImageLayout.Stretch;
+            button23.BackgroundImage = Properties.Resources.lBragantino;
+            button23.BackgroundImageLayout = ImageLayout.Center;
             button23.Location = new Point(93, 293);
             button23.Name = "button23";
             button23.Size = new Size(75, 75);
@@ -290,8 +290,8 @@
             // button24
             // 
             button24.BackColor = Color.Transparent;
-            button24.BackgroundImage = Properties.Resources.Club_Athletico_Paranaense_2019;
-            button24.BackgroundImageLayout = ImageLayout.Stretch;
+            button24.BackgroundImage = Properties.Resources.lAthleticoPR;
+            button24.BackgroundImageLayout = ImageLayout.Center;
             button24.Location = new Point(12, 293);
             button24.Name = "button24";
             button24.Size = new Size(75, 75);
