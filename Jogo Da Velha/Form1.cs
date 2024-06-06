@@ -26,7 +26,6 @@ namespace JogoDaVelha
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
         private void label1_Click(object sender, EventArgs e)
         {
@@ -82,14 +81,29 @@ namespace JogoDaVelha
             {
                 XPlayer++;
                 PontosX.Text = Convert.ToString(XPlayer);
-                MessageBox.Show("Jogador X ganhou!!");
+                if (Global.time1 == "" || Global.time2 == "")
+                {
+                    MessageBox.Show("Jogador X ganhou!!");
+                }
+                else
+                {
+                    MessageBox.Show(String.Format(@"Ponto para o {0}", Global.time1));
+                }
+                
                 turno = true;
             }
             else
             {
                 OPlayer++;
                 BolaPontos.Text = Convert.ToString(OPlayer);
-                MessageBox.Show("Jogador O ganhou!!");
+                if (Global.time1 == "" || Global.time2 == "")
+                {
+                    MessageBox.Show("Jogador O ganhou!!");
+                }
+                else
+                {
+                    MessageBox.Show(String.Format(@"Ponto para o {0}", Global.time2));
+                }
                 turno = false;
             }
 
@@ -181,6 +195,8 @@ namespace JogoDaVelha
             AlterarFundoBotao(Color.FromArgb(128, 128, 128));
             AlterarCorFonte(Color.White);
             AlterarCorBorda(Color.White);
+            limparTimes();
+            altLabel();
         }
 
         private void rosaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -193,6 +209,8 @@ namespace JogoDaVelha
             AlterarFundoBotao(Color.FromArgb(255, 192, 255));
             AlterarCorFonte(Color.Black);
             AlterarCorBorda(Color.FromArgb(255, 0, 255));
+            limparTimes();
+            altLabel();
         }
 
         private void AlterarCorBorda(Color cor)
@@ -270,6 +288,8 @@ namespace JogoDaVelha
 
 
             btnlimpar.BackColor = Color.FromArgb(0, 0, 0); //quando passao mouse em cima
+            limparTimes();
+            altLabel();
         }
 
         private void tocarFlamengo()
@@ -300,8 +320,55 @@ namespace JogoDaVelha
 
         private void versusToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            F_Times f_Times = new F_Times();
+            F_Times f_Times = new F_Times(this);
             f_Times.ShowDialog();
+        }
+
+
+        private void limparTimes()
+        {
+            Global.time1 = "";
+            Global.time2 = "";
+            Global.confirmou = false;
+        }
+
+
+        public void corVersus()
+        {
+            btm.FlatAppearance.BorderColor = Color.White;
+            button2.FlatAppearance.BorderColor = Color.White;
+            button1.FlatAppearance.BorderColor = Color.White;
+            button3.FlatAppearance.BorderColor = Color.White;
+            button4.FlatAppearance.BorderColor = Color.White;
+            button5.FlatAppearance.BorderColor = Color.White;
+            button6.FlatAppearance.BorderColor = Color.White;
+            button7.FlatAppearance.BorderColor = Color.White;
+            button8.FlatAppearance.BorderColor = Color.White;
+            btnlimpar.FlatAppearance.BorderColor = Color.White;
+
+            btm.FlatAppearance.MouseOverBackColor = Color.White;
+            button1.FlatAppearance.MouseOverBackColor = Color.White;
+            button2.FlatAppearance.MouseOverBackColor = Color.White;
+            button3.FlatAppearance.MouseOverBackColor = Color.White;
+            button4.FlatAppearance.MouseOverBackColor = Color.White;
+            button5.FlatAppearance.MouseOverBackColor = Color.White;
+            button6.FlatAppearance.MouseOverBackColor = Color.White;
+            button7.FlatAppearance.MouseOverBackColor = Color.White;
+            button8.FlatAppearance.MouseOverBackColor = Color.White;
+            XPlayer = 0;
+            OPlayer = 0;
+            PontosX.Text = "0";
+            BolaPontos.Text = "0";
+            btnlimpar.BackColor = Color.FromArgb(128,128,128);
+            label1.Text = Global.time1;
+            label2.Text = Global.time2;
+            AlterarCorFonte(Color.White);
+        }
+
+        private void altLabel()
+        {
+            label1.Text = "X Pontos";
+            label2.Text = "O Pontos";
         }
     }
 }

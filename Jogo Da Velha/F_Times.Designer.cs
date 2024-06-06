@@ -55,7 +55,7 @@
             lbl_time2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            comboBox1 = new ComboBox();
+            cb_estadios = new ComboBox();
             btn_limpar = new Button();
             SuspendLayout();
             // 
@@ -307,6 +307,7 @@
             btn_confirmar.TabIndex = 23;
             btn_confirmar.Text = "Confirmar";
             btn_confirmar.UseVisualStyleBackColor = true;
+            btn_confirmar.Click += btn_confirmar_Click;
             // 
             // label1
             // 
@@ -363,13 +364,14 @@
             label4.TabIndex = 29;
             label4.Text = "Agora escolha o estádio:";
             // 
-            // comboBox1
+            // cb_estadios
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(12, 425);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(310, 23);
-            comboBox1.TabIndex = 30;
+            cb_estadios.FormattingEnabled = true;
+            cb_estadios.Items.AddRange(new object[] { "Maracanã", "MorumBIS", "Allianz Parque", "Neo Quimica Arena", "São Januário", "Arena da Baixada", "Vila Belmiro" });
+            cb_estadios.Location = new Point(12, 425);
+            cb_estadios.Name = "cb_estadios";
+            cb_estadios.Size = new Size(310, 23);
+            cb_estadios.TabIndex = 30;
             // 
             // btn_limpar
             // 
@@ -387,7 +389,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(424, 510);
             Controls.Add(btn_limpar);
-            Controls.Add(comboBox1);
+            Controls.Add(cb_estadios);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(lbl_time2);
@@ -420,6 +422,8 @@
             Name = "F_Times";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Escolha os Times";
+            FormClosed += F_Times_FormClosed;
+            Load += F_Times_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -453,7 +457,7 @@
         private Label lbl_time2;
         private Label label3;
         private Label label4;
-        private ComboBox comboBox1;
+        private ComboBox cb_estadios;
         private Button btn_limpar;
     }
 }

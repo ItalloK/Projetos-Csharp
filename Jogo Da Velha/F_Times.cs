@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,23 +13,23 @@ namespace JogoDaVelha
 {
     public partial class F_Times : Form
     {
-        public static string time1 = "";
-        public static string time2 = "";
 
-        public F_Times()
+        private Form1 form1;
+        public F_Times(Form1 form1)
         {
             InitializeComponent();
+            this.form1 = form1;
         }
         private void escolhaTime(string nomeTime)
         {
-            if (time1 == "")
+            if (Global.time1 == "")
             {
-                time1 = nomeTime;
+                Global.time1 = nomeTime;
                 lbl_time1.Text = nomeTime;
             }
-            else if (time2 == "")
+            else if (Global.time2 == "")
             {
-                time2 = nomeTime;
+                Global.time2 = nomeTime;
                 lbl_time2.Text = nomeTime;
             }
             else
@@ -138,11 +139,74 @@ namespace JogoDaVelha
 
         private void btn_limpar_Click(object sender, EventArgs e)
         {
-            time1 = "";
-            time2 = "";
+            Global.time1 = "";
+            Global.time2 = "";
             lbl_time1.Text = "...";
             lbl_time2.Text = "...";
             MessageBox.Show("Campos limpos, escolha os times novamente.");
+        }
+
+        private void btn_confirmar_Click(object sender, EventArgs e)
+        {
+            if (Global.time1 == "" || Global.time2 == "" || cb_estadios.Text == "")
+            {
+                MessageBox.Show("Você deve escolher 2 times e um estádio antes de confirmar.");
+                Global.confirmou = false;
+                return;
+            }
+            Global.confirmou = true;
+            verificarEstadio();
+            this.Close();
+        }
+
+        private void F_Times_Load(object sender, EventArgs e)
+        {
+            Global.confirmou = false;
+            Global.time1 = "";
+            Global.time2 = "";
+            cb_estadios.Text = "";
+        }
+
+        private void F_Times_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (Global.confirmou == false)
+            {
+                Global.time1 = "";
+                Global.time2 = "";
+                cb_estadios.Text = "";
+            }
+        }
+
+        private void verificarEstadio()
+        {
+            if(cb_estadios.Text == "Maracanã")
+            {
+                form1.BackgroundImage = Image.FromFile("estadios\\Maracana.png");
+            }else if (cb_estadios.Text == "MorumBIS")
+            {
+                form1.BackgroundImage = Image.FromFile("estadios\\Morumbis.png");
+            }
+            else if (cb_estadios.Text == "Allianz Parque")
+            {
+                form1.BackgroundImage = Image.FromFile("estadios\\AllianzParque.png");
+            }
+            else if (cb_estadios.Text == "Neo Quimica Arena")
+            {
+                form1.BackgroundImage = Image.FromFile("estadios\\NeoQuimicaArena.png");
+            }
+            else if (cb_estadios.Text == "São Januário")
+            {
+                form1.BackgroundImage = Image.FromFile("estadios\\SaoJanuario.png");
+            }
+            else if (cb_estadios.Text == "Arena da Baixada")
+            {
+                form1.BackgroundImage = Image.FromFile("estadios\\ArenaDaBaixada.png");
+            }
+            else if (cb_estadios.Text == "Vila Belmiro")
+            {
+                form1.BackgroundImage = Image.FromFile("estadios\\VilaBelmiro.png");
+            }
+            form1.corVersus();
         }
     }
 }
