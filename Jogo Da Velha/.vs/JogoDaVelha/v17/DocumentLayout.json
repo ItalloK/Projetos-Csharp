@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:f_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|d:\\jogos n\u00E3o steam\\programa\u00E7\u00E3o\\projetos c#\\jogo da velha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|d:\\jogos n\u00E3o steam\\programa\u00E7\u00E3o\\projetos c#\\jogo da velha\\f_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:f_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|d:\\jogos n\u00E3o steam\\programa\u00E7\u00E3o\\projetos c#\\jogo da velha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|d:\\jogos n\u00E3o steam\\programa\u00E7\u00E3o\\projetos c#\\jogo da velha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "F_Principal.cs",
               "DocumentMoniker": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\F_Principal.cs",
               "RelativeDocumentMoniker": "F_Principal.cs",
               "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\F_Principal.cs",
               "RelativeToolTip": "F_Principal.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAlwBgAAAAYAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAlwBUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T01:42:40.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T01:30:03.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "F_Principal.cs [Projeto]",
+              "Title": "F_Principal.cs [Design]",
               "DocumentMoniker": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\F_Principal.cs",
               "RelativeDocumentMoniker": "F_Principal.cs",
-              "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\F_Principal.cs [Projeto]",
-              "RelativeToolTip": "F_Principal.cs [Projeto]",
+              "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\F_Principal.cs [Design]",
+              "RelativeToolTip": "F_Principal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T01:28:37.797Z",
-              "EditorCaption": " [Projeto]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -85,14 +68,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Projeto]",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Form1.cs [Projeto]",
+              "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T21:12:09.902Z"
+              "WhenOpened": "2024-06-06T21:12:09.902Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
