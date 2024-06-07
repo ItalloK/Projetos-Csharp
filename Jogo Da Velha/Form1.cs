@@ -416,7 +416,9 @@ namespace JogoDaVelha
         private void versusToolStripMenuItem_Click(object sender, EventArgs e)
         {
             F_Times f_Times = new F_Times(this);
+            this.Hide();
             f_Times.ShowDialog();
+            this.Show();
         }
 
 
