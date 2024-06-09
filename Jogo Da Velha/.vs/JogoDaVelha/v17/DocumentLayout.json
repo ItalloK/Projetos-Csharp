@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|d:\\jogos n\u00E3o steam\\programa\u00E7\u00E3o\\projetos c#\\jogo da velha\\f_jogodamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:f_jogodamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|d:\\jogos n\u00E3o steam\\programa\u00E7\u00E3o\\projetos c#\\jogo da velha\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|d:\\jogos n\u00E3o steam\\programa\u00E7\u00E3o\\projetos c#\\jogo da velha\\f_jogodamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:f_jogodamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|d:\\jogos n\u00E3o steam\\programa\u00E7\u00E3o\\projetos c#\\jogo da velha\\f_jogodamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6EC96BF1-CD6E-4700-8CC8-C151C362F28E}|JogoDaVelha.csproj|solutionrelative:f_jogodamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,36 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "F_JogoDaMemoria.cs",
-              "DocumentMoniker": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\F_JogoDaMemoria.cs",
-              "RelativeDocumentMoniker": "F_JogoDaMemoria.cs",
-              "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\F_JogoDaMemoria.cs",
-              "RelativeToolTip": "F_JogoDaMemoria.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAlwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T21:52:40.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-09T21:49:18.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "F_JogoDaMemoria.cs [Projeto]",
               "DocumentMoniker": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\F_JogoDaMemoria.cs",
               "RelativeDocumentMoniker": "F_JogoDaMemoria.cs",
@@ -60,6 +31,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T21:16:00.247Z",
               "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "F_JogoDaMemoria.cs",
+              "DocumentMoniker": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\F_JogoDaMemoria.cs",
+              "RelativeDocumentMoniker": "F_JogoDaMemoria.cs",
+              "ToolTip": "D:\\Jogos N\u00E3o Steam\\Programa\u00E7\u00E3o\\Projetos C#\\Jogo Da Velha\\F_JogoDaMemoria.cs",
+              "RelativeToolTip": "F_JogoDaMemoria.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAADAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T21:52:40.129Z",
+              "EditorCaption": ""
             }
           ]
         }

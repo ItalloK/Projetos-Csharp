@@ -47,7 +47,7 @@
             pictureBox16 = new PictureBox();
             pictureBox17 = new PictureBox();
             pictureBox18 = new PictureBox();
-            label1 = new Label();
+            lbl_movimentos = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -266,17 +266,17 @@
             pictureBox18.TabStop = false;
             pictureBox18.Tag = "8";
             // 
-            // label1
+            // lbl_movimentos
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("1-2-3 GO!", 20F);
-            label1.ForeColor = SystemColors.ControlLightLight;
-            label1.Location = new Point(23, 374);
-            label1.Name = "label1";
-            label1.Size = new Size(226, 30);
-            label1.TabIndex = 18;
-            label1.Text = "Movimentos:";
+            lbl_movimentos.AutoSize = true;
+            lbl_movimentos.BackColor = Color.Transparent;
+            lbl_movimentos.Font = new Font("Jujutsu Kaisen", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_movimentos.ForeColor = SystemColors.ControlLightLight;
+            lbl_movimentos.Location = new Point(23, 386);
+            lbl_movimentos.Name = "lbl_movimentos";
+            lbl_movimentos.Size = new Size(183, 49);
+            lbl_movimentos.TabIndex = 18;
+            lbl_movimentos.Text = "Movimentos:";
             // 
             // F_JogoDaMemoria
             // 
@@ -285,7 +285,7 @@
             BackgroundImage = Properties.Resources.Fundo;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(681, 504);
-            Controls.Add(label1);
+            Controls.Add(lbl_movimentos);
             Controls.Add(pictureBox17);
             Controls.Add(pictureBox18);
             Controls.Add(pictureBox15);
@@ -352,6 +352,6 @@
         private PictureBox pictureBox16;
         private PictureBox pictureBox17;
         private PictureBox pictureBox18;
-        private Label label1;
+        private Label lbl_movimentos;
     }
 }
