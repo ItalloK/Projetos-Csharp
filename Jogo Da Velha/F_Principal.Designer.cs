@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Principal));
             panel1 = new Panel();
+            button2 = new Button();
             button1 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -38,12 +39,26 @@
             // 
             panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(623, 450);
             panel1.TabIndex = 0;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Silver;
+            button2.Cursor = Cursors.Hand;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.Location = new Point(463, 78);
+            button2.Name = "button2";
+            button2.Size = new Size(148, 37);
+            button2.TabIndex = 1;
+            button2.Text = "Jodo da Memória";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -77,5 +92,6 @@
 
         private Panel panel1;
         private Button button1;
+        private Button button2;
     }
 }

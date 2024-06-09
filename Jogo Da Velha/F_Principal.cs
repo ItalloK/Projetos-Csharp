@@ -24,5 +24,13 @@ namespace JogoDaVelha
             form1.ShowDialog();
             this.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            F_JogoDaMemoria f_JogoDaMemoria = new F_JogoDaMemoria();
+            this.Hide();
+            f_JogoDaMemoria.ShowDialog();
+            this.Show();
+        }
     }
 }
