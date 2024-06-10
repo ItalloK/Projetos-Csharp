@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -75,9 +76,13 @@ namespace JogoDaVelha
             if (cliques == 1)
             {
                 tags[0] = int.Parse(String.Format("{0}", pic.Tag));
+                SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.Click);
+                simpleSound.Play();
             }
             else if (cliques == 2)
             {
+                SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.Click);
+                simpleSound.Play();
                 movimentos++;
                 lbl_movimentos.Text = "Movimentos: " + movimentos.ToString();
                 tags[1] = int.Parse(String.Format("{0}", pic.Tag));
@@ -111,7 +116,8 @@ namespace JogoDaVelha
                     {
                         item.Enabled = false;
                         cartasEncontradas++;
-
+                        SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.Par);
+                        simpleSound.Play();
                     }
                     else
                     {
@@ -127,6 +133,8 @@ namespace JogoDaVelha
         {
             if (cartasEncontradas == img.Length * 2)
             {
+                SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.Win);
+                simpleSound.Play();
                 MessageBox.Show("Parabéns, você terminou o jogo com " + movimentos.ToString() + " movimentos");
                 DialogResult msg = MessageBox.Show("Deseja continuar jogando?", "Continuar?", MessageBoxButtons.YesNo);
                 if (msg == DialogResult.Yes)
@@ -138,7 +146,6 @@ namespace JogoDaVelha
                     Inicio();
                 }else if (msg == DialogResult.No)
                 {
-                    MessageBox.Show("Obrigado por jogar.");
                     this.Close();
                 }
             }

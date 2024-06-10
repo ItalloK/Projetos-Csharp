@@ -290,7 +290,8 @@
             lbl_movimentos.BackColor = Color.Transparent;
             lbl_movimentos.Font = new Font("Jujutsu Kaisen", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_movimentos.ForeColor = SystemColors.ControlLightLight;
-            lbl_movimentos.Location = new Point(23, 386);
+            lbl_movimentos.Image = Properties.Resources.Fundo1;
+            lbl_movimentos.Location = new Point(23, 400);
             lbl_movimentos.Name = "lbl_movimentos";
             lbl_movimentos.Size = new Size(183, 49);
             lbl_movimentos.TabIndex = 18;

@@ -32,5 +32,41 @@ namespace JogoDaVelha
             f_JogoDaMemoria.ShowDialog();
             this.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            F_JogoDaMemoria f_JogoDaMemoria = new F_JogoDaMemoria();
+            this.Hide();
+            f_JogoDaMemoria.ShowDialog();
+            this.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.ShowDialog();
+            this.Show();
+        }
+
+        private void label2_MouseEnter(object sender, EventArgs e)
+        {
+            label2.ForeColor = Color.Gray;
+        }
+
+        private void label2_MouseLeave(object sender, EventArgs e)
+        {
+            label2.ForeColor = Color.White;
+        }
+
+        private void label1_MouseEnter(object sender, EventArgs e)
+        {
+            label1.ForeColor = Color.Gray;
+        }
+
+        private void label1_MouseLeave(object sender, EventArgs e)
+        {
+            label1.ForeColor = Color.White;
+        }
     }
 }

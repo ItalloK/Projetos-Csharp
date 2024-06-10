@@ -10,6 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="bin\Debug\net8.0-windows\sounds\Click.wav" />
+    <None Include="bin\Debug\net8.0-windows\sounds\Par.wav" />
+    <None Include="bin\Debug\net8.0-windows\sounds\Win.wav" />
     <Content Include="Icon2.ico" />
   </ItemGroup>
 

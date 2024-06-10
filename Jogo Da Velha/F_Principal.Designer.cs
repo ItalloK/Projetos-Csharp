@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Principal));
             panel1 = new Panel();
-            button2 = new Button();
-            button1 = new Button();
+            label2 = new Label();
+            label1 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -39,39 +39,45 @@
             // 
             panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(623, 450);
             panel1.TabIndex = 0;
             // 
-            // button2
+            // label2
             // 
-            button2.BackColor = Color.Silver;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.Location = new Point(463, 78);
-            button2.Name = "button2";
-            button2.Size = new Size(148, 37);
-            button2.TabIndex = 1;
-            button2.Text = "Jodo da Memória";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Cursor = Cursors.Hand;
+            label2.Font = new Font("Comic Sans MS", 14.25F, FontStyle.Bold);
+            label2.ForeColor = SystemColors.Control;
+            label2.Location = new Point(436, 87);
+            label2.Name = "label2";
+            label2.Size = new Size(171, 27);
+            label2.TabIndex = 3;
+            label2.Text = "Jogo da Memória";
+            label2.Click += label2_Click;
+            label2.MouseEnter += label2_MouseEnter;
+            label2.MouseLeave += label2_MouseLeave;
             // 
-            // button1
+            // label1
             // 
-            button1.BackColor = Color.Silver;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.Location = new Point(463, 12);
-            button1.Name = "button1";
-            button1.Size = new Size(148, 37);
-            button1.TabIndex = 0;
-            button1.Text = "Jogo da Velha";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Cursor = Cursors.Hand;
+            label1.Font = new Font("Comic Sans MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(463, 44);
+            label1.Name = "label1";
+            label1.Size = new Size(144, 27);
+            label1.TabIndex = 2;
+            label1.Text = "Jogo da Velha";
+            label1.Click += label1_Click;
+            label1.MouseEnter += label1_MouseEnter;
+            label1.MouseLeave += label1_MouseLeave;
             // 
             // F_Principal
             // 
@@ -85,13 +91,14 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Joguinhos :)";
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panel1;
-        private Button button1;
-        private Button button2;
+        private Label label1;
+        private Label label2;
     }
 }
