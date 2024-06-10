@@ -90,6 +90,7 @@
             pictureBox17.TabIndex = 36;
             pictureBox17.TabStop = false;
             pictureBox17.Tag = "8";
+            pictureBox17.Click += ImagensClick;
             // 
             // pictureBox18
             // 
@@ -101,6 +102,7 @@
             pictureBox18.TabIndex = 35;
             pictureBox18.TabStop = false;
             pictureBox18.Tag = "8";
+            pictureBox18.Click += ImagensClick;
             // 
             // pictureBox15
             // 
@@ -112,6 +114,7 @@
             pictureBox15.TabIndex = 34;
             pictureBox15.TabStop = false;
             pictureBox15.Tag = "7";
+            pictureBox15.Click += ImagensClick;
             // 
             // pictureBox16
             // 
@@ -123,6 +126,7 @@
             pictureBox16.TabIndex = 33;
             pictureBox16.TabStop = false;
             pictureBox16.Tag = "7";
+            pictureBox16.Click += ImagensClick;
             // 
             // pictureBox13
             // 
@@ -134,6 +138,7 @@
             pictureBox13.TabIndex = 32;
             pictureBox13.TabStop = false;
             pictureBox13.Tag = "6";
+            pictureBox13.Click += ImagensClick;
             // 
             // pictureBox14
             // 
@@ -145,6 +150,7 @@
             pictureBox14.TabIndex = 31;
             pictureBox14.TabStop = false;
             pictureBox14.Tag = "6";
+            pictureBox14.Click += ImagensClick;
             // 
             // pictureBox11
             // 
@@ -156,6 +162,7 @@
             pictureBox11.TabIndex = 30;
             pictureBox11.TabStop = false;
             pictureBox11.Tag = "5";
+            pictureBox11.Click += ImagensClick;
             // 
             // pictureBox12
             // 
@@ -167,6 +174,7 @@
             pictureBox12.TabIndex = 29;
             pictureBox12.TabStop = false;
             pictureBox12.Tag = "5";
+            pictureBox12.Click += ImagensClick;
             // 
             // pictureBox9
             // 
@@ -178,6 +186,7 @@
             pictureBox9.TabIndex = 28;
             pictureBox9.TabStop = false;
             pictureBox9.Tag = "4";
+            pictureBox9.Click += ImagensClick;
             // 
             // pictureBox10
             // 
@@ -189,6 +198,7 @@
             pictureBox10.TabIndex = 27;
             pictureBox10.TabStop = false;
             pictureBox10.Tag = "4";
+            pictureBox10.Click += ImagensClick;
             // 
             // pictureBox7
             // 
@@ -200,6 +210,7 @@
             pictureBox7.TabIndex = 26;
             pictureBox7.TabStop = false;
             pictureBox7.Tag = "3";
+            pictureBox7.Click += ImagensClick;
             // 
             // pictureBox8
             // 
@@ -211,6 +222,7 @@
             pictureBox8.TabIndex = 25;
             pictureBox8.TabStop = false;
             pictureBox8.Tag = "3";
+            pictureBox8.Click += ImagensClick;
             // 
             // pictureBox5
             // 
@@ -222,6 +234,7 @@
             pictureBox5.TabIndex = 24;
             pictureBox5.TabStop = false;
             pictureBox5.Tag = "2";
+            pictureBox5.Click += ImagensClick;
             // 
             // pictureBox6
             // 
@@ -233,6 +246,7 @@
             pictureBox6.TabIndex = 23;
             pictureBox6.TabStop = false;
             pictureBox6.Tag = "2";
+            pictureBox6.Click += ImagensClick;
             // 
             // pictureBox4
             // 
@@ -244,6 +258,7 @@
             pictureBox4.TabIndex = 22;
             pictureBox4.TabStop = false;
             pictureBox4.Tag = "1";
+            pictureBox4.Click += ImagensClick;
             // 
             // pictureBox3
             // 
@@ -255,6 +270,7 @@
             pictureBox3.TabIndex = 21;
             pictureBox3.TabStop = false;
             pictureBox3.Tag = "1";
+            pictureBox3.Click += ImagensClick;
             // 
             // pictureBox2
             // 
@@ -266,6 +282,7 @@
             pictureBox2.TabIndex = 20;
             pictureBox2.TabStop = false;
             pictureBox2.Tag = "0";
+            pictureBox2.Click += ImagensClick;
             // 
             // pictureBox1
             // 
@@ -277,6 +294,7 @@
             pictureBox1.TabIndex = 19;
             pictureBox1.TabStop = false;
             pictureBox1.Tag = "0";
+            pictureBox1.Click += ImagensClick;
             // 
             // F_Kimetsu
             // 

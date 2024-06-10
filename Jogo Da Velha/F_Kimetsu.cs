@@ -121,7 +121,7 @@ namespace JogoDaVelha
                     }
                     else
                     {
-                        item.Image = Properties.Resources.FundoCartas;
+                        item.Image = Properties.Resources.FundoCartaKimetsu;
                         item.Refresh();
                     }
                 }
