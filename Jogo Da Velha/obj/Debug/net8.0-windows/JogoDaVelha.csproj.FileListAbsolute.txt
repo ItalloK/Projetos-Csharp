@@ -54,3 +54,5 @@ D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-win
 D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.F_Times.resources
 D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.F_Principal.resources
 D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.F_JogoDaMemoria.resources
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.F_Kimetsu.resources
+D:\Jogos Não Steam\Programação\Projetos C#\Jogo Da Velha\obj\Debug\net8.0-windows\JogoDaVelha.F_TemasJogoDaMemoria.resources

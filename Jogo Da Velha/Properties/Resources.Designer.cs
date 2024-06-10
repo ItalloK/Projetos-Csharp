@@ -112,9 +112,39 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FundoCartaKimetsu {
+            get {
+                object obj = ResourceManager.GetObject("FundoCartaKimetsu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FundoCartas {
             get {
                 object obj = ResourceManager.GetObject("FundoCartas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FundoKimetsu {
+            get {
+                object obj = ResourceManager.GetObject("FundoKimetsu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Giyu {
+            get {
+                object obj = ResourceManager.GetObject("Giyu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -132,9 +162,29 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Inosuke {
+            get {
+                object obj = ResourceManager.GetObject("Inosuke", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap JogoDaMemoria {
             get {
                 object obj = ResourceManager.GetObject("JogoDaMemoria", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kanao {
+            get {
+                object obj = ResourceManager.GetObject("Kanao", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -362,6 +412,16 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Mitsuri {
+            get {
+                object obj = ResourceManager.GetObject("Mitsuri", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Miwa {
             get {
                 object obj = ResourceManager.GetObject("Miwa", resourceCulture);
@@ -375,6 +435,16 @@ namespace JogoDaVelha.Properties {
         internal static System.Drawing.Bitmap Nanami {
             get {
                 object obj = ResourceManager.GetObject("Nanami", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nezuko {
+            get {
+                object obj = ResourceManager.GetObject("Nezuko", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -401,9 +471,39 @@ namespace JogoDaVelha.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Rengoku {
+            get {
+                object obj = ResourceManager.GetObject("Rengoku", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Sukuna {
             get {
                 object obj = ResourceManager.GetObject("Sukuna", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tanjiro {
+            get {
+                object obj = ResourceManager.GetObject("Tanjiro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tokito {
+            get {
+                object obj = ResourceManager.GetObject("Tokito", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -433,6 +533,16 @@ namespace JogoDaVelha.Properties {
         internal static System.Drawing.Bitmap Yuta {
             get {
                 object obj = ResourceManager.GetObject("Yuta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Zenitsu {
+            get {
+                object obj = ResourceManager.GetObject("Zenitsu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
