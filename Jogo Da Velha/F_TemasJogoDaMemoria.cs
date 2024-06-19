@@ -64,5 +64,29 @@ namespace JogoDaVelha
         {
             label2.Font = new Font(label2.Font, FontStyle.Regular);
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            F_Shingeki f_Shingeki = new F_Shingeki();
+            f_Shingeki.ShowDialog();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            F_Shingeki f_Shingeki = new F_Shingeki();
+            f_Shingeki.ShowDialog();
+        }
+
+        private void label4_MouseEnter(object sender, EventArgs e)
+        {
+            label4.Font = new Font(label4.Font, FontStyle.Bold);
+        }
+
+        private void label4_MouseLeave(object sender, EventArgs e)
+        {
+            label4.Font = new Font(label4.Font, FontStyle.Regular);
+        }
     }
 }

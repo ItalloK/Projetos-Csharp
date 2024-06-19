@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lCorinthians" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lCorinthians1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lCruzeiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCruzeiro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lSaoPaulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lSaoPaulo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,11 +127,23 @@
   <data name="Yuji" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Yuji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FundoCartaKimetsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundoCartaKimetsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Fundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fundo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lBotafogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lBotafogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zenitsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zenitsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nezuko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nezuko.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lFluminense" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lFluminense1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -144,6 +156,9 @@
   </data>
   <data name="lGremio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lGremio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inosuke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inosuke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lFortaleza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lFortaleza1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,11 +187,20 @@
   <data name="Par" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\net8.0-windows\sounds\Par.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Rengoku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rengoku.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tanjiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tanjiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lSantos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lSantos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lVasco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lVasco1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kanao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kanao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lCeara" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lCeara1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,6 +211,9 @@
   <data name="Miwa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miwa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fundo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fundo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lFlamengo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lFlamengo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -196,11 +223,11 @@
   <data name="JogoDaMemoria" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JogoDaMemoria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FundoCartas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FundoCartas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="lJuventude" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lJuventude1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tokito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tokito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lAthleticoPR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lAthleticoPR1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,14 +235,23 @@
   <data name="lBragantino" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lBragantino1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FundoKimetsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundoKimetsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lAtleticoMG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lAtleticoMG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Yuta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Yuta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Mitsuri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mitsuri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Giyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Giyu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lCorinthians" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCorinthians1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lInternacional" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lInternacional1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,46 +259,43 @@
   <data name="lCriciuma" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lCriciuma1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lCruzeiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lCruzeiro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FundoCartas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundoCartas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\net8.0-windows\sounds\Click.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Fundo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fundo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Annie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Annie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FundoCartaKimetsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FundoCartaKimetsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Armin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FundoKimetsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FundoKimetsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Eren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eren.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Giyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Giyu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FundoCartaShingeki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundoCartaShingeki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Inosuke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Inosuke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FundoShingeki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundoShingeki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kanao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kanao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Historia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Historia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mitsuri" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mitsuri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Levi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Levi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Nezuko" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nezuko.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Mikasa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mikasa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rengoku" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rengoku.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Range" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Range.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tanjiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tanjiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Reiner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reiner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tokito" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tokito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Zenitsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Zenitsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sasha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sasha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

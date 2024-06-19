@@ -34,8 +34,11 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            label4 = new Label();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -54,7 +57,7 @@
             // 
             pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = Properties.Resources.FundoCartas;
-            pictureBox2.Location = new Point(278, 55);
+            pictureBox2.Location = new Point(205, 55);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(100, 100);
             pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -77,7 +80,7 @@
             label2.AutoSize = true;
             label2.Cursor = Cursors.Hand;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(273, 164);
+            label2.Location = new Point(200, 164);
             label2.Name = "label2";
             label2.Size = new Size(108, 21);
             label2.TabIndex = 3;
@@ -100,11 +103,39 @@
             label3.MouseEnter += label3_MouseEnter;
             label3.MouseLeave += label3_MouseLeave;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Cursor = Cursors.Hand;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(339, 164);
+            label4.Name = "label4";
+            label4.Size = new Size(138, 21);
+            label4.TabIndex = 6;
+            label4.Text = "Shingeki no Kyojin";
+            label4.Click += label4_Click;
+            label4.MouseEnter += label4_MouseEnter;
+            label4.MouseLeave += label4_MouseLeave;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Cursor = Cursors.Hand;
+            pictureBox3.Image = Properties.Resources.FundoCartaShingeki;
+            pictureBox3.Location = new Point(359, 55);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(100, 100);
+            pictureBox3.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox3.TabIndex = 5;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
+            // 
             // F_TemasJogoDaMemoria
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(425, 253);
+            ClientSize = new Size(512, 253);
+            Controls.Add(label4);
+            Controls.Add(pictureBox3);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -118,6 +149,7 @@
             Text = "Temas Jogo da Memória";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -129,5 +161,7 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private Label label4;
+        private PictureBox pictureBox3;
     }
 }
