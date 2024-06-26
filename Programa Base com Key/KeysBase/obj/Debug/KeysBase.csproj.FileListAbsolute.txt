@@ -1,0 +1,10 @@
+D:\Jogos Não Steam\Programação\Projetos C#\Programa Base com Key\KeysBase\bin\Debug\KeysBase.exe.config
+D:\Jogos Não Steam\Programação\Projetos C#\Programa Base com Key\KeysBase\bin\Debug\KeysBase.exe
+D:\Jogos Não Steam\Programação\Projetos C#\Programa Base com Key\KeysBase\bin\Debug\KeysBase.pdb
+D:\Jogos Não Steam\Programação\Projetos C#\Programa Base com Key\KeysBase\obj\Debug\KeysBase.csproj.AssemblyReference.cache
+D:\Jogos Não Steam\Programação\Projetos C#\Programa Base com Key\KeysBase\obj\Debug\KeysBase.F_KeyLogin.resources
+D:\Jogos Não Steam\Programação\Projetos C#\Programa Base com Key\KeysBase\obj\Debug\KeysBase.Properties.Resources.resources
+D:\Jogos Não Steam\Programação\Projetos C#\Programa Base com Key\KeysBase\obj\Debug\KeysBase.csproj.GenerateResource.cache
+D:\Jogos Não Steam\Programação\Projetos C#\Programa Base com Key\KeysBase\obj\Debug\KeysBase.csproj.CoreCompileInputs.cache
+D:\Jogos Não Steam\Programação\Projetos C#\Programa Base com Key\KeysBase\obj\Debug\KeysBase.exe
+D:\Jogos Não Steam\Programação\Projetos C#\Programa Base com Key\KeysBase\obj\Debug\KeysBase.pdb
