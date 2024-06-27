@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_confirmar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tb_keys = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_confirmar
             // 
-            this.button1.Location = new System.Drawing.Point(12, 51);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Confirmar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_confirmar.Location = new System.Drawing.Point(12, 51);
+            this.btn_confirmar.Name = "btn_confirmar";
+            this.btn_confirmar.Size = new System.Drawing.Size(115, 23);
+            this.btn_confirmar.TabIndex = 0;
+            this.btn_confirmar.Text = "Confirmar";
+            this.btn_confirmar.UseVisualStyleBackColor = true;
+            this.btn_confirmar.Click += new System.EventHandler(this.btn_confirmar_Click);
             // 
             // label1
             // 
@@ -51,21 +52,21 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Digite sua Key:";
             // 
-            // textBox1
+            // tb_keys
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 25);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(288, 20);
-            this.textBox1.TabIndex = 2;
+            this.tb_keys.Location = new System.Drawing.Point(12, 25);
+            this.tb_keys.Name = "tb_keys";
+            this.tb_keys.Size = new System.Drawing.Size(288, 20);
+            this.tb_keys.TabIndex = 2;
             // 
             // F_KeyLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(312, 83);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_keys);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_confirmar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "F_KeyLogin";
@@ -78,8 +79,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_confirmar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tb_keys;
     }
 }

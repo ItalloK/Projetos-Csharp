@@ -7,28 +7,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace KeysBase
 {
     public partial class F_KeyLogin : Form
     {
+
+        DataTable dt = new DataTable();
+
         public F_KeyLogin()
         {
             InitializeComponent();
         }
 
-        private int VerificaKey()
+        private void btn_confirmar_Click(object sender, EventArgs e)
         {
-            var recebeValor = 0;
-            if(recebeValor == 0)
+            string keyDigitada = tb_keys.Text;
+
+            string sql = "SELECT * FROM `Keys` WHERE `Keys` ='"+keyDigitada+"'";
+            dt = Bd.dql(sql);
+            if(dt.Rows.Count == 0)
             {
-                return 1;
+                MessageBox.Show("Key Invalida");
+                this.Dispose();
             }
             else
             {
-                return 0;
+                this.Hide();
+                F_Programa f_Programa = new F_Programa();
+                f_Programa.ShowDialog();
             }
+            
         }
-
     }
 }
