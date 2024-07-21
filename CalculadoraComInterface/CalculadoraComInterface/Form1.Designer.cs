@@ -47,6 +47,8 @@
             button17 = new Button();
             tb_tela = new TextBox();
             tb_telaNums = new TextBox();
+            button18 = new Button();
+            button19 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -69,6 +71,7 @@
             button2.TabIndex = 1;
             button2.Text = ".";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -200,6 +203,7 @@
             button14.TabIndex = 13;
             button14.Text = "-";
             button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
             // 
             // button15
             // 
@@ -210,6 +214,7 @@
             button15.TabIndex = 14;
             button15.Text = "X";
             button15.UseVisualStyleBackColor = true;
+            button15.Click += button15_Click;
             // 
             // button16
             // 
@@ -220,15 +225,16 @@
             button16.TabIndex = 15;
             button16.Text = "÷";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
             // 
             // button17
             // 
             button17.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button17.Location = new Point(10, 93);
             button17.Name = "button17";
-            button17.Size = new Size(237, 68);
+            button17.Size = new Size(75, 68);
             button17.TabIndex = 16;
-            button17.Text = "RESETAR";
+            button17.Text = "CE";
             button17.UseVisualStyleBackColor = true;
             button17.Click += button17_Click;
             // 
@@ -250,11 +256,35 @@
             tb_telaNums.Size = new Size(316, 25);
             tb_telaNums.TabIndex = 18;
             // 
+            // button18
+            // 
+            button18.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold);
+            button18.Location = new Point(91, 93);
+            button18.Name = "button18";
+            button18.Size = new Size(75, 68);
+            button18.TabIndex = 19;
+            button18.Text = "(";
+            button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
+            // 
+            // button19
+            // 
+            button19.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold);
+            button19.Location = new Point(172, 93);
+            button19.Name = "button19";
+            button19.Size = new Size(75, 68);
+            button19.TabIndex = 20;
+            button19.Text = ")";
+            button19.UseVisualStyleBackColor = true;
+            button19.Click += button19_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(338, 469);
+            Controls.Add(button19);
+            Controls.Add(button18);
             Controls.Add(tb_telaNums);
             Controls.Add(tb_tela);
             Controls.Add(button17);
@@ -304,5 +334,7 @@
         private Button button17;
         private TextBox tb_tela;
         private TextBox tb_telaNums;
+        private Button button18;
+        private Button button19;
     }
 }
