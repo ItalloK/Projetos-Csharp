@@ -37,7 +37,7 @@
             tb_Nick = new TextBox();
             label3 = new Label();
             label4 = new Label();
-            label5 = new Label();
+            lbl_Erro = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -54,11 +54,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(130, 213);
+            label1.Location = new Point(148, 223);
             label1.Name = "label1";
-            label1.Size = new Size(335, 15);
+            label1.Size = new Size(287, 15);
             label1.TabIndex = 1;
-            label1.Text = "Bem Vindo(a) digite os dados abaixo para fazer Login/Registro";
+            label1.Text = "Bem Vindo(a) digite os dados abaixo para fazer Login";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // btn_Registro
@@ -69,6 +69,7 @@
             btn_Registro.TabIndex = 3;
             btn_Registro.Text = "Registro";
             btn_Registro.UseVisualStyleBackColor = true;
+            btn_Registro.Click += btn_Registro_Click;
             // 
             // btn_Login
             // 
@@ -78,6 +79,7 @@
             btn_Login.TabIndex = 2;
             btn_Login.Text = "Login";
             btn_Login.UseVisualStyleBackColor = true;
+            btn_Login.Click += btn_Login_Click;
             // 
             // label2
             // 
@@ -92,6 +94,7 @@
             // 
             tb_Senha.Location = new Point(130, 342);
             tb_Senha.Name = "tb_Senha";
+            tb_Senha.PasswordChar = '*';
             tb_Senha.Size = new Size(335, 23);
             tb_Senha.TabIndex = 1;
             // 
@@ -120,21 +123,21 @@
             label4.TabIndex = 8;
             label4.Text = "Senha:";
             // 
-            // label5
+            // lbl_Erro
             // 
-            label5.AutoSize = true;
-            label5.ForeColor = Color.Red;
-            label5.Location = new Point(213, 368);
-            label5.Name = "label5";
-            label5.Size = new Size(0, 15);
-            label5.TabIndex = 9;
+            lbl_Erro.AutoSize = true;
+            lbl_Erro.ForeColor = Color.Red;
+            lbl_Erro.Location = new Point(213, 368);
+            lbl_Erro.Name = "lbl_Erro";
+            lbl_Erro.Size = new Size(0, 15);
+            lbl_Erro.TabIndex = 9;
             // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(580, 465);
-            Controls.Add(label5);
+            Controls.Add(lbl_Erro);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(tb_Nick);
@@ -145,6 +148,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Name = "Principal";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tela Principal";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -162,6 +166,6 @@
         private TextBox tb_Nick;
         private Label label3;
         private Label label4;
-        private Label label5;
+        private Label lbl_Erro;
     }
 }

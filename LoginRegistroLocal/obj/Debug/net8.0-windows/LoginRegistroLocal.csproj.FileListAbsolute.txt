@@ -16,3 +16,5 @@ D:\Jogos Não Steam\Programação\Projetos C#\LoginRegistroLocal\obj\Debug\net8.
 D:\Jogos Não Steam\Programação\Projetos C#\LoginRegistroLocal\obj\Debug\net8.0-windows\LoginRegistroLocal.pdb
 D:\Jogos Não Steam\Programação\Projetos C#\LoginRegistroLocal\obj\Debug\net8.0-windows\LoginRegistroLocal.genruntimeconfig.cache
 D:\Jogos Não Steam\Programação\Projetos C#\LoginRegistroLocal\obj\Debug\net8.0-windows\ref\LoginRegistroLocal.dll
+D:\Jogos Não Steam\Programação\Projetos C#\LoginRegistroLocal\obj\Debug\net8.0-windows\LoginRegistroLocal.Registro.resources
+D:\Jogos Não Steam\Programação\Projetos C#\LoginRegistroLocal\obj\Debug\net8.0-windows\LoginRegistroLocal.Pagina.resources
