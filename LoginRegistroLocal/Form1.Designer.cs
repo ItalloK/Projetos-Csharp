@@ -30,6 +30,14 @@
         {
             pictureBox1 = new PictureBox();
             label1 = new Label();
+            btn_Registro = new Button();
+            btn_Login = new Button();
+            label2 = new Label();
+            tb_Senha = new TextBox();
+            tb_Nick = new TextBox();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -53,11 +61,87 @@
             label1.Text = "Bem Vindo(a) digite os dados abaixo para fazer Login/Registro";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
+            // btn_Registro
+            // 
+            btn_Registro.Location = new Point(486, 433);
+            btn_Registro.Name = "btn_Registro";
+            btn_Registro.Size = new Size(75, 23);
+            btn_Registro.TabIndex = 3;
+            btn_Registro.Text = "Registro";
+            btn_Registro.UseVisualStyleBackColor = true;
+            // 
+            // btn_Login
+            // 
+            btn_Login.Location = new Point(200, 389);
+            btn_Login.Name = "btn_Login";
+            btn_Login.Size = new Size(200, 23);
+            btn_Login.TabIndex = 2;
+            btn_Login.Text = "Login";
+            btn_Login.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(477, 415);
+            label2.Name = "label2";
+            label2.Size = new Size(91, 15);
+            label2.TabIndex = 4;
+            label2.Text = "Não tem conta?";
+            // 
+            // tb_Senha
+            // 
+            tb_Senha.Location = new Point(130, 342);
+            tb_Senha.Name = "tb_Senha";
+            tb_Senha.Size = new Size(335, 23);
+            tb_Senha.TabIndex = 1;
+            // 
+            // tb_Nick
+            // 
+            tb_Nick.Location = new Point(130, 291);
+            tb_Nick.Name = "tb_Nick";
+            tb_Nick.Size = new Size(335, 23);
+            tb_Nick.TabIndex = 0;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(130, 273);
+            label3.Name = "label3";
+            label3.Size = new Size(34, 15);
+            label3.TabIndex = 7;
+            label3.Text = "Nick:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(130, 324);
+            label4.Name = "label4";
+            label4.Size = new Size(42, 15);
+            label4.TabIndex = 8;
+            label4.Text = "Senha:";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.ForeColor = Color.Red;
+            label5.Location = new Point(213, 368);
+            label5.Name = "label5";
+            label5.Size = new Size(0, 15);
+            label5.TabIndex = 9;
+            // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(580, 450);
+            ClientSize = new Size(580, 465);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(tb_Nick);
+            Controls.Add(tb_Senha);
+            Controls.Add(label2);
+            Controls.Add(btn_Login);
+            Controls.Add(btn_Registro);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Name = "Principal";
@@ -71,5 +155,13 @@
 
         private PictureBox pictureBox1;
         private Label label1;
+        private Button btn_Registro;
+        private Button btn_Login;
+        private Label label2;
+        private TextBox tb_Senha;
+        private TextBox tb_Nick;
+        private Label label3;
+        private Label label4;
+        private Label label5;
     }
 }
