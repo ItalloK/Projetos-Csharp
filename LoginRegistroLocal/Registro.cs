@@ -60,7 +60,7 @@ namespace LoginRegistroLocal
             string caminhoArquivo = Path.Combine(caminhoCompleto, nomeArquivo);
             if (File.Exists(caminhoArquivo))
             {
-                lbl_Erro.Text = "O Nick já está em uso. Por favor, escolha outro.";
+                lbl_Erro.Text = "O Nick já está em uso. Por favor, escolha outro."; //rs
                 return;
             }
             File.WriteAllText(caminhoArquivo, json);

@@ -8,7 +8,7 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\itall\\.nuget\\packages\\": {},
+    "C:\\Users\\Italo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -17,14 +17,14 @@
       "projectUniqueName": "D:\\Jogos Não Steam\\Programação\\Projetos C#\\LoginRegistroLocal\\LoginRegistroLocal.csproj",
       "projectName": "LoginRegistroLocal",
       "projectPath": "D:\\Jogos Não Steam\\Programação\\Projetos C#\\LoginRegistroLocal\\LoginRegistroLocal.csproj",
-      "packagesPath": "C:\\Users\\itall\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Italo\\.nuget\\packages\\",
       "outputPath": "D:\\Jogos Não Steam\\Programação\\Projetos C#\\LoginRegistroLocal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\itall\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Italo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -26,7 +26,7 @@ namespace LoginRegistroLocal
             senha = tb_Senha.Text;
             if (tb_Nick.Text == "" || tb_Senha.Text == "")
             {
-                lbl_Erro.Text = "Há campos não preenchidos!";
+                lbl_Erro.Text = "Hï¿½ campos nï¿½o preenchidos!";
                 return;
             }
             string pasta = "Contas";
@@ -35,7 +35,7 @@ namespace LoginRegistroLocal
             string caminhoArquivo = Path.Combine(caminhoCompleto, nomeArquivo);
             if (!File.Exists(caminhoArquivo))
             {
-                lbl_Erro.Text = "Usuário não encontrado!";
+                lbl_Erro.Text = "Usuï¿½rio nï¿½o encontrado!";
                 return;
             }
             try
@@ -48,7 +48,7 @@ namespace LoginRegistroLocal
                     Pagina p = new Pagina();
                     p.Show();
                     this.Hide();
-                    p.FormClosed += (s, args) => this.Close(); // Fecha o formulário de login quando o novo formulário é fechado
+                    p.FormClosed += (s, args) => this.Close(); // Fecha o formulï¿½rio de login quando o novo formulï¿½rio ï¿½ fechado
                 }
                 else
                 {
